@@ -1,5 +1,4 @@
 deploy:
   provider: firebase
-  token:
-    secure: "$FIREBASE_TOKEN"
+  token: "$FIREBASE_TOKEN"
   message: "Hello"
