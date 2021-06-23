@@ -1,5 +1,0 @@
-65.112.8.134 - - [26/Jul/2016:16:30:36 -0700] "GET / HTTP/1.1" 200 744 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" 
-65.112.8.134 - - [26/Jul/2016:16:30:37 -0700] "GET /favicon.ico HTTP/1.1" 200 267 "http://www.bsalzberg.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36" 
-66.249.93.95 - - [26/Jul/2016:17:40:35 -0700] "GET / HTTP/1.1" 200 744 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon" 
-66.102.6.155 - - [26/Jul/2016:17:40:35 -0700] "GET / HTTP/1.1" 200 744 "http://www.google.com/search" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0.1453 Safari/537.36" 
-66.249.93.91 - - [26/Jul/2016:17:40:35 -0700] "GET /favicon.ico HTTP/1.1" 200 268 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon" 
