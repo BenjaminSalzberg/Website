@@ -1,0 +1,25 @@
+{
+  /* Visit https://firebase.google.com/docs/database/security to learn more about security rules. */
+  "rules": {
+    "Permissions":
+    {
+      ".read": true,
+      ".write": "auth.uid === 'AExev4eLZhVXKOSEtlxBMwNaism2'"
+    },
+    "Users": 
+    {
+      // User is authenticated and it is a delete or create. 
+      ".write": "auth.uid != null && (!data.exists() || !newData.exists())", 
+      ".read": "auth.uid === 'AExev4eLZhVXKOSEtlxBMwNaism2'"
+    },
+	"HashGUID":{
+		".read": true,
+		".write": true  
+	},
+  	"Dashboards":
+  	{
+  		".write": "root.child('Permissions').child(auth.uid).exists() && root.child('Permissions').child(auth.uid).val() === true", 
+  	  ".read": "root.child('Permissions').child(auth.uid).exists() && root.child('Permissions').child(auth.uid).val() === true", 
+  	},
+	}
+}
