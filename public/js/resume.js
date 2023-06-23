@@ -45,8 +45,6 @@ var provider = new firebase.auth.GoogleAuthProvider();
 
 const database = firebase.database();
 
-database.useEmulator("127.0.0.1", 9000);
-
 function writeUserData(userId, uid, email) {
 	firebase.database().ref('Users/' + userId).set({
 		UID: uid,
